@@ -1,4 +1,6 @@
 package com.hirani.ali.doyouevenlift.models
 
-data class Workout(val exercises: MutableList<Exercise>) {
+import java.util.*
+
+data class Workout(val date: Date, val exercises: MutableList<Exercise>) {
 }
